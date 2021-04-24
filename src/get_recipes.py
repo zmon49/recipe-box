@@ -130,7 +130,7 @@ def scrape_recipe_box(scraper, site_str, page_iter, status_interval=50):
 def get_fn_letter_links():
     # get list of pages with links to recipes
     base_url = 'http://www.foodnetwork.com'
-    search_url_str = 'recipes/a-z'
+    search_url_str = '/recipes/recipes-a-z'
     url = '{}/{}/{}'.format(base_url, search_url_str, '')
 
     try:
