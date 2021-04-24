@@ -53,7 +53,7 @@ def get_recipe(url):
 
 def get_all_recipes_fn(page_str, page_num):
     base_url = 'http://www.foodnetwork.com'
-    search_url_str = 'recipes/a-z'
+    search_url_str = 'recipes/recipes-a-z'
     url = '{}/{}/{}/p/{}'.format(base_url, search_url_str, page_str, page_num)
 
     try:
